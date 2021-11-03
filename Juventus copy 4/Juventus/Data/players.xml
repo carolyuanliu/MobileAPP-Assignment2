@@ -1,0 +1,410 @@
+<team>
+  <player>
+    <number>1</number>
+    <name>Wojciech Szczesny</name>
+    <position>GoalKeeper</position>
+    <nationality>🇵🇱Polish</nationality>
+    <dateOfBirth>18 April 1990</dateOfBirth>
+    <image>1.png</image>
+    <profile>
+• 28 Appendences
+• 2550 Minutes played
+• 7 Clean sheet
+• 73 Saves
+    ・1 from Penalty
+    ・37 from Inside area
+    ・33 from Outside area
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/wojciech-szczesny</url>
+  </player>
+  <player>
+    <number>31</number>
+    <name>Carlo Pinsoglio</name>
+    <position>GoalKeeper</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>16 March 1990</dateOfBirth>
+    <image>31.png</image>
+    <profile>
+• 0 Appendences
+• 0 Minutes played
+• 0 Clean sheet
+• 0 Saves
+    ・0 from Penalty
+    ・0 from Inside area
+    ・0 from Outside area
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/carlo-pinsoglio</url>
+  </player>
+  <player>
+    <number>77</number>
+    <name>Gianluigi Buffon</name>
+    <position>GoalKeeper</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>28 January 1978</dateOfBirth>
+    <image>77.png</image>
+    <profile>
+• 6 Appendences
+• 540 Minutes played
+• 4 Clean sheet
+• 17 Saves
+   ・0 from Penalty
+   ・8 from Inside area
+   ・9 from Outside area
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/gianluigi-buffon</url>
+  </player>
+  <player>
+    <number>3</number>
+    <name>Giorgio Chiellini</name>
+    <position>Defender</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>14 August 1984</dateOfBirth>
+    <image>3.png</image>
+    <profile>
+• 12 Appendences
+• 843 Minutes played
+• 0 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/giorgio-chiellini</url>
+  </player>
+  <player>
+    <number>4</number>
+    <name>Matthijs de Ligt</name>
+    <position>Defender</position>
+    <nationality>🇳🇱Dutch</nationality>
+    <dateOfBirth>12 August 1999</dateOfBirth>
+    <image>4.png</image>
+    <profile>
+• 20 Appendences
+• 1589 Minutes played
+• 0 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/matthijs-de-ligt</url>
+  </player>
+  <player>
+    <number>12</number>
+    <name>Alex Sandro</name>
+    <position>Defender</position>
+    <nationality>🇧🇷Brazilian</nationality>
+    <dateOfBirth>26 January 1991</dateOfBirth>
+    <image>12.png</image>
+    <profile>
+• 20 Appendences
+• 1397 Minutes played
+• 2 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/alex-sandro</url>
+  </player>
+  <player>
+    <number>13</number>
+    <name>Luiz Da Silva Danilo</name>
+    <position>Defender</position>
+    <nationality>🇧🇷Brazilian</nationality>
+    <dateOfBirth>15 July 1991</dateOfBirth>
+    <image>13.png</image>
+    <profile>
+• 31 Appendences
+• 2685 Minutes played
+• 3 Assists
+• 1 Goals
+    ・0 Left Foot
+    ・1 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/danilo-luiz-da-silva</url>
+  </player>
+  <player>
+    <number>16</number>
+    <name>Juan Cuadrado</name>
+    <position>Defender</position>
+    <nationality>🇨🇴Colombian</nationality>
+    <dateOfBirth>26 May 1988</dateOfBirth>
+    <image>16.png</image>
+    <profile>
+• 25 Appendences
+• 1908 Minutes played
+• 12 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/juan-cuadrado</url>
+  </player>
+  <player>
+    <number>19</number>
+    <name>Leonardo Bonucci</name>
+    <position>Defender</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>1 May 1987</dateOfBirth>
+    <image>19.png</image>
+    <profile>
+• 26 Appendences
+• 2079 Minutes played
+• 0 Assists
+• 2 Goals
+    ・0 Left Foot
+    ・1 Right Foot
+    ・1 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/leonardo-bonucci</url>
+  </player>
+  <player>
+    <number>28</number>
+    <name>Merih Demiral</name>
+    <position>Defender</position>
+    <nationality>🇹🇷Turkish</nationality>
+    <dateOfBirth>5 March 1998</dateOfBirth>
+    <image>28.png</image>
+    <profile>
+• 19 Appendences
+• 1317 Minutes played
+• 1 Assists
+• 0 Gaols
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/merih-demiral</url>
+  </player>
+  <player>
+    <number>38</number>
+    <name>Gianluca Frabotta</name>
+    <position>Defender</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>24 June 1999</dateOfBirth>
+    <image>38.png</image>
+    <profile>
+• 16 Appendences
+• 700 Minutes played
+• 1 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/gianluca-frabotta</url>
+  </player>
+  <player>
+    <number>5</number>
+    <name>Melo Arthur</name>
+    <position>Midfielder</position>
+    <nationality>🇧🇷Brazilian</nationality>
+    <dateOfBirth>12 August 1996</dateOfBirth>
+    <image>5.png</image>
+    <profile>
+• 22 Appendences
+• 1197 Minutes played
+• 0 Assists
+• 1 Goals
+    ・0 Left Foot
+    ・1 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/arthur-melo</url>
+  </player>
+  <player>
+    <number>8</number>
+    <name>Aaron Ramsey</name>
+    <position>Midfielder</position>
+    <nationality>🏴󠁧󠁢󠁷󠁬󠁳󠁿Welsh</nationality>
+    <dateOfBirth>26 December 1990</dateOfBirth>
+    <image>8.png</image>
+    <profile>
+• 25 Appendences
+• 1343 Minutes played
+• 4 Assists
+• 2 Goals
+    ・1 Left Foot
+    ・1 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/aaron-ramsey</url>
+  </player>
+  <player>
+    <number>14</number>
+    <name>Weston McKennie</name>
+    <position>Midfielder</position>
+    <nationality>🇺🇸American</nationality>
+    <dateOfBirth>28 August 1998</dateOfBirth>
+    <image>14.png</image>
+    <profile>
+• 30 Appendences
+• 1621 Minutes played
+• 2 Assists
+• 5 Goals
+    ・1 Left Foot
+    ・2 Right Foot
+    ・2 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/weston-mckennie</url>
+  </player>
+  <player>
+    <number>22</number>
+    <name>Federico Chiesar</name>
+    <position>Midfielder</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>25 October 1997</dateOfBirth>
+    <image>22.png</image>
+    <profile>
+• 29 Appendences
+• 2101 Minutes played
+• 7 Assists
+• 10 Goals
+    ・2Left Foot
+    ・6 Right Foot
+    ・2 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/federico-chiesa</url>
+  </player>
+  <player>
+    <number>25</number>
+    <name>Adrien Rabiot</name>
+    <position>Midfielder</position>
+    <nationality>🇫🇷French</nationality>
+    <dateOfBirth>3 April 1995</dateOfBirth>
+    <image>25.png</image>
+    <profile>
+• 29 Appendences
+• 1999 Minutes played
+• 1 Assists
+• 3 Goals
+    ・1 Left Foot
+    ・1 Right Foot
+    ・1 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/adrien-rabiot</url>
+  </player>
+  <player>
+    <number>30</number>
+    <name>Rodrigo Bentancur</name>
+    <position>Midfielder</position>
+    <nationality>🇺🇾Uruguayan</nationality>
+    <dateOfBirth>25 June 1997</dateOfBirth>
+    <image>30.png</image>
+    <profile>
+• 29 Appendences
+• 2020 Minutes played
+• 3 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/rodrigo-bentancur</url>
+  </player>
+  <player>
+    <number>33</number>
+    <name>Federico Bernardeschir</name>
+    <position>Midfielder</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>16 February 1994</dateOfBirth>
+    <image>33.png</image>
+    <profile>
+• 29 Appendences
+• 912 Minutes played
+• 3 Assists
+• 0 Goals
+    ・0 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/federico-bernardeschi</url>
+  </player>
+  <player>
+    <number>44</number>
+    <name>Dejan Kulusevski</name>
+    <position>Midfielder</position>
+    <nationality>🇸🇪Swedish</nationality>
+    <dateOfBirth>25 April 2000</dateOfBirth>
+    <image>44.png</image>
+    <profile>
+• 30 Appendences
+• 1582 Minutes played
+• 1 Assists
+• 3 Goals
+    ・3 Left Foot
+    ・0 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/dejan-kulusevski</url>
+  </player>
+  <player>
+    <number>7</number>
+    <name>Cristiano Ronaldo</name>
+    <position>Forward</position>
+    <nationality>🇵🇹Portuguese</nationality>
+    <dateOfBirth>5 February 1985</dateOfBirth>
+    <image>7.png</image>
+    <profile>
+• 29 Appendences
+• 2492 Minutes played
+• 5 Assists
+• 27 Goals
+    ・6 Left Foot
+    ・16 Right Foot
+    ・5 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/cristiano-ronaldo</url>
+  </player>
+  <player>
+    <number>9</number>
+    <name>Álvaro Morata</name>
+    <position>Forward</position>
+    <nationality>🇪🇸Spanish</nationality>
+    <dateOfBirth>23 October 1992</dateOfBirth>
+    <image>9.png</image>
+    <profile>
+• 29 Appendences
+• 1932 Minutes played
+• 9 Assists
+• 13 Goals
+    ・6 Left Foot
+    ・4 Right Foot
+    ・3 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/alvaro-morata</url>
+  </player>
+  <player>
+    <number>10</number>
+    <name>Paulo Dybalaa</name>
+    <position>Forward</position>
+    <nationality>🇦🇷Argentinian</nationality>
+    <dateOfBirth>15 November 1993</dateOfBirth>
+    <image>10.png</image>
+    <profile>
+• 16 Appendences
+• 860 Minutes played
+• 2 Assists
+• 3 Goals
+    ・2 Left Foot
+    ・1 Right Foot
+    ・0 Head
+    </profile>
+    <url>https://www.juventus.com/en/teams/first-team-men/squad/paulo-dybala</url>
+  </player>
+  <player>
+    <number></number>
+    <name>Andrea Pirlo</name>
+    <position>Coach</position>
+    <nationality>🇮🇹Italian</nationality>
+    <dateOfBirth>19 May 1979</dateOfBirth>
+    <image>pirlo.png</image>
+    <profile>
+        Andrea Pirlo is the new Juventus coach. 41-years-old and born in Flero in the province of Brescia, Pirlo has had a legendary career as a player that has led him to win everything, from the Champions League to the World Cup in 2006. In his four years at the centre of the Juventus midfield, Pirlo won as many league titles, a Coppa Italia and two Italian Super Cups.
+    </profile>
+    <url>https://en.wikipedia.org/wiki/Andrea_Pirlo</url>
+  </player>
+</team>

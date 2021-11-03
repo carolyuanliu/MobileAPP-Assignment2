@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B916B8FE261CAB4B00E19BE2 /* addPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B916B8FD261CAB4B00E19BE2 /* addPlayerViewController.swift */; };
+		B94EB5CC25FF77BA00A64288 /* logo_black.png in Resources */ = {isa = PBXBuildFile; fileRef = B94EB5CB25FF77BA00A64288 /* logo_black.png */; };
+		B95F6BCC25F6A28A00BC9D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6BCB25F6A28A00BC9D8B /* AppDelegate.swift */; };
+		B95F6BCE25F6A28A00BC9D8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6BCD25F6A28A00BC9D8B /* SceneDelegate.swift */; };
+		B95F6BD325F6A28A00BC9D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F6BD125F6A28A00BC9D8B /* Main.storyboard */; };
+		B95F6BD525F6A28A00BC9D8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95F6BD425F6A28A00BC9D8B /* Assets.xcassets */; };
+		B95F6BD825F6A28A00BC9D8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B95F6BD625F6A28A00BC9D8B /* LaunchScreen.storyboard */; };
+		B95F6BE325F6A28B00BC9D8B /* JuventusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6BE225F6A28B00BC9D8B /* JuventusTests.swift */; };
+		B95F6BEE25F6A28B00BC9D8B /* JuventusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6BED25F6A28B00BC9D8B /* JuventusUITests.swift */; };
+		B95F6BFF25F6B1A700BC9D8B /* players.xml in Resources */ = {isa = PBXBuildFile; fileRef = B95F6BFE25F6B1A700BC9D8B /* players.xml */; };
+		B95F6C1B25F6B29800BC9D8B /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0425F6B29800BC9D8B /* 14.png */; };
+		B95F6C1C25F6B29800BC9D8B /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0525F6B29800BC9D8B /* 10.png */; };
+		B95F6C1D25F6B29800BC9D8B /* 28.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0625F6B29800BC9D8B /* 28.png */; };
+		B95F6C1E25F6B29800BC9D8B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0725F6B29800BC9D8B /* 4.png */; };
+		B95F6C1F25F6B29800BC9D8B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0825F6B29800BC9D8B /* 5.png */; };
+		B95F6C2025F6B29800BC9D8B /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0925F6B29800BC9D8B /* 12.png */; };
+		B95F6C2125F6B29800BC9D8B /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0A25F6B29800BC9D8B /* 13.png */; };
+		B95F6C2225F6B29800BC9D8B /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0B25F6B29800BC9D8B /* 8.png */; };
+		B95F6C2325F6B29800BC9D8B /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0C25F6B29800BC9D8B /* 9.png */; };
+		B95F6C2425F6B29800BC9D8B /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0D25F6B29800BC9D8B /* 7.png */; };
+		B95F6C2525F6B29800BC9D8B /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0E25F6B29800BC9D8B /* 30.png */; };
+		B95F6C2625F6B29800BC9D8B /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C0F25F6B29800BC9D8B /* 31.png */; };
+		B95F6C2725F6B29800BC9D8B /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1025F6B29800BC9D8B /* 16.png */; };
+		B95F6C2825F6B29800BC9D8B /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1125F6B29800BC9D8B /* 44.png */; };
+		B95F6C2925F6B29800BC9D8B /* 77.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1225F6B29800BC9D8B /* 77.png */; };
+		B95F6C2A25F6B29800BC9D8B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1325F6B29800BC9D8B /* 3.png */; };
+		B95F6C2B25F6B29800BC9D8B /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1425F6B29800BC9D8B /* 33.png */; };
+		B95F6C2C25F6B29800BC9D8B /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1525F6B29800BC9D8B /* 22.png */; };
+		B95F6C2D25F6B29800BC9D8B /* pirlo.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1625F6B29800BC9D8B /* pirlo.png */; };
+		B95F6C2E25F6B29800BC9D8B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1725F6B29800BC9D8B /* 1.png */; };
+		B95F6C2F25F6B29800BC9D8B /* 25.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1825F6B29800BC9D8B /* 25.png */; };
+		B95F6C3025F6B29800BC9D8B /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1925F6B29800BC9D8B /* 19.png */; };
+		B95F6C3125F6B29800BC9D8B /* 38.png in Resources */ = {isa = PBXBuildFile; fileRef = B95F6C1A25F6B29800BC9D8B /* 38.png */; };
+		B95F6C3E25F6B91400BC9D8B /* XMLPlayerParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6C3D25F6B91400BC9D8B /* XMLPlayerParser.swift */; };
+		B95F6C4325F6B9EF00BC9D8B /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6C4225F6B9EF00BC9D8B /* Team.swift */; };
+		B95F6C4B25F6BE6B00BC9D8B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6C4A25F6BE6B00BC9D8B /* Player.swift */; };
+		B95F6C5025F6BFE200BC9D8B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6C4F25F6BFE200BC9D8B /* TableViewController.swift */; };
+		B95F6C5525F6C29200BC9D8B /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95F6C5425F6C29200BC9D8B /* PlayerViewController.swift */; };
+		B97A6F47263579A700848A3E /* FilterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97A6F46263579A700848A3E /* FilterTableViewController.swift */; };
+		B9955DBD262A22E2000B67BC /* players.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9955DBB262A22E2000B67BC /* players.xcdatamodeld */; };
+		B9CDEA9725F7999800CFBC5C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEA9625F7999800CFBC5C /* WebViewController.swift */; };
+		B9CDEA9F25F7BBA700CFBC5C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CDEA9E25F7BBA700CFBC5C /* ProfileViewController.swift */; };
+		B9E3778C25FE9D6700E9CEDE /* 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = B9E3778B25FE9D6700E9CEDE /* 1.txt */; };
+		B9E3779225FEAC8300E9CEDE /* Juventus-Kits-Logo-PNG-DLS-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = B9E3779125FEAC8300E9CEDE /* Juventus-Kits-Logo-PNG-DLS-300x300.png */; };
+		B9EB98142634BAE000AD8F22 /* MarkedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EB98132634BAE000AD8F22 /* MarkedTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B95F6BDF25F6A28B00BC9D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95F6BC025F6A28A00BC9D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95F6BC725F6A28A00BC9D8B;
+			remoteInfo = Juventus;
+		};
+		B95F6BEA25F6A28B00BC9D8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B95F6BC025F6A28A00BC9D8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B95F6BC725F6A28A00BC9D8B;
+			remoteInfo = Juventus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B916B8FD261CAB4B00E19BE2 /* addPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPlayerViewController.swift; sourceTree = "<group>"; };
+		B94EB5CB25FF77BA00A64288 /* logo_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_black.png; sourceTree = "<group>"; };
+		B95F6BC825F6A28A00BC9D8B /* Juventus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Juventus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F6BCB25F6A28A00BC9D8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B95F6BCD25F6A28A00BC9D8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B95F6BD225F6A28A00BC9D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B95F6BD425F6A28A00BC9D8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B95F6BD725F6A28A00BC9D8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B95F6BD925F6A28A00BC9D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95F6BDE25F6A28B00BC9D8B /* JuventusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuventusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F6BE225F6A28B00BC9D8B /* JuventusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuventusTests.swift; sourceTree = "<group>"; };
+		B95F6BE425F6A28B00BC9D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95F6BE925F6A28B00BC9D8B /* JuventusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JuventusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95F6BED25F6A28B00BC9D8B /* JuventusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuventusUITests.swift; sourceTree = "<group>"; };
+		B95F6BEF25F6A28B00BC9D8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95F6BFE25F6B1A700BC9D8B /* players.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = players.xml; sourceTree = "<group>"; };
+		B95F6C0425F6B29800BC9D8B /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 14.png; sourceTree = "<group>"; };
+		B95F6C0525F6B29800BC9D8B /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		B95F6C0625F6B29800BC9D8B /* 28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 28.png; sourceTree = "<group>"; };
+		B95F6C0725F6B29800BC9D8B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		B95F6C0825F6B29800BC9D8B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		B95F6C0925F6B29800BC9D8B /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		B95F6C0A25F6B29800BC9D8B /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		B95F6C0B25F6B29800BC9D8B /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		B95F6C0C25F6B29800BC9D8B /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		B95F6C0D25F6B29800BC9D8B /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		B95F6C0E25F6B29800BC9D8B /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
+		B95F6C0F25F6B29800BC9D8B /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		B95F6C1025F6B29800BC9D8B /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		B95F6C1125F6B29800BC9D8B /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
+		B95F6C1225F6B29800BC9D8B /* 77.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 77.png; sourceTree = "<group>"; };
+		B95F6C1325F6B29800BC9D8B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		B95F6C1425F6B29800BC9D8B /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		B95F6C1525F6B29800BC9D8B /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		B95F6C1625F6B29800BC9D8B /* pirlo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pirlo.png; sourceTree = "<group>"; };
+		B95F6C1725F6B29800BC9D8B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		B95F6C1825F6B29800BC9D8B /* 25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 25.png; sourceTree = "<group>"; };
+		B95F6C1925F6B29800BC9D8B /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 19.png; sourceTree = "<group>"; };
+		B95F6C1A25F6B29800BC9D8B /* 38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 38.png; sourceTree = "<group>"; };
+		B95F6C3D25F6B91400BC9D8B /* XMLPlayerParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLPlayerParser.swift; sourceTree = "<group>"; };
+		B95F6C4225F6B9EF00BC9D8B /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		B95F6C4A25F6BE6B00BC9D8B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B95F6C4F25F6BFE200BC9D8B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B95F6C5425F6C29200BC9D8B /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		B97A6F46263579A700848A3E /* FilterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterTableViewController.swift; sourceTree = "<group>"; };
+		B9955DBC262A22E2000B67BC /* players.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = players.xcdatamodel; sourceTree = "<group>"; };
+		B9CDEA9625F7999800CFBC5C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		B9CDEA9E25F7BBA700CFBC5C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B9E3778B25FE9D6700E9CEDE /* 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1.txt; sourceTree = "<group>"; };
+		B9E3779125FEAC8300E9CEDE /* Juventus-Kits-Logo-PNG-DLS-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Juventus-Kits-Logo-PNG-DLS-300x300.png"; sourceTree = "<group>"; };
+		B9EB98132634BAE000AD8F22 /* MarkedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkedTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95F6BC525F6A28A00BC9D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BDB25F6A28B00BC9D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BE625F6A28B00BC9D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B95F6BBF25F6A28A00BC9D8B = {
+			isa = PBXGroup;
+			children = (
+				B95F6BCA25F6A28A00BC9D8B /* Juventus */,
+				B95F6BE125F6A28B00BC9D8B /* JuventusTests */,
+				B95F6BEC25F6A28B00BC9D8B /* JuventusUITests */,
+				B95F6BC925F6A28A00BC9D8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95F6BC925F6A28A00BC9D8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6BC825F6A28A00BC9D8B /* Juventus.app */,
+				B95F6BDE25F6A28B00BC9D8B /* JuventusTests.xctest */,
+				B95F6BE925F6A28B00BC9D8B /* JuventusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95F6BCA25F6A28A00BC9D8B /* Juventus */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6C0325F6B25100BC9D8B /* Data */,
+				B95F6BCB25F6A28A00BC9D8B /* AppDelegate.swift */,
+				B97A6F46263579A700848A3E /* FilterTableViewController.swift */,
+				B95F6BCD25F6A28A00BC9D8B /* SceneDelegate.swift */,
+				B95F6C4F25F6BFE200BC9D8B /* TableViewController.swift */,
+				B95F6C5425F6C29200BC9D8B /* PlayerViewController.swift */,
+				B9CDEA9E25F7BBA700CFBC5C /* ProfileViewController.swift */,
+				B95F6BD125F6A28A00BC9D8B /* Main.storyboard */,
+				B9EB98132634BAE000AD8F22 /* MarkedTableViewController.swift */,
+				B916B8FD261CAB4B00E19BE2 /* addPlayerViewController.swift */,
+				B9CDEA9625F7999800CFBC5C /* WebViewController.swift */,
+				B9955DBB262A22E2000B67BC /* players.xcdatamodeld */,
+				B95F6BD425F6A28A00BC9D8B /* Assets.xcassets */,
+				B95F6BD625F6A28A00BC9D8B /* LaunchScreen.storyboard */,
+				B95F6BD925F6A28A00BC9D8B /* Info.plist */,
+				B95F6C3D25F6B91400BC9D8B /* XMLPlayerParser.swift */,
+				B95F6C4225F6B9EF00BC9D8B /* Team.swift */,
+				B95F6C4A25F6BE6B00BC9D8B /* Player.swift */,
+			);
+			path = Juventus;
+			sourceTree = "<group>";
+		};
+		B95F6BE125F6A28B00BC9D8B /* JuventusTests */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6BE225F6A28B00BC9D8B /* JuventusTests.swift */,
+				B95F6BE425F6A28B00BC9D8B /* Info.plist */,
+			);
+			path = JuventusTests;
+			sourceTree = "<group>";
+		};
+		B95F6BEC25F6A28B00BC9D8B /* JuventusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6BED25F6A28B00BC9D8B /* JuventusUITests.swift */,
+				B95F6BEF25F6A28B00BC9D8B /* Info.plist */,
+			);
+			path = JuventusUITests;
+			sourceTree = "<group>";
+		};
+		B95F6C0325F6B25100BC9D8B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B95F6BFE25F6B1A700BC9D8B /* players.xml */,
+				B9E3779125FEAC8300E9CEDE /* Juventus-Kits-Logo-PNG-DLS-300x300.png */,
+				B94EB5CB25FF77BA00A64288 /* logo_black.png */,
+				B9E3778B25FE9D6700E9CEDE /* 1.txt */,
+				B95F6C1725F6B29800BC9D8B /* 1.png */,
+				B95F6C1325F6B29800BC9D8B /* 3.png */,
+				B95F6C0725F6B29800BC9D8B /* 4.png */,
+				B95F6C0825F6B29800BC9D8B /* 5.png */,
+				B95F6C0D25F6B29800BC9D8B /* 7.png */,
+				B95F6C0B25F6B29800BC9D8B /* 8.png */,
+				B95F6C0C25F6B29800BC9D8B /* 9.png */,
+				B95F6C0525F6B29800BC9D8B /* 10.png */,
+				B95F6C0925F6B29800BC9D8B /* 12.png */,
+				B95F6C0A25F6B29800BC9D8B /* 13.png */,
+				B95F6C0425F6B29800BC9D8B /* 14.png */,
+				B95F6C1025F6B29800BC9D8B /* 16.png */,
+				B95F6C1925F6B29800BC9D8B /* 19.png */,
+				B95F6C1525F6B29800BC9D8B /* 22.png */,
+				B95F6C1825F6B29800BC9D8B /* 25.png */,
+				B95F6C0625F6B29800BC9D8B /* 28.png */,
+				B95F6C0E25F6B29800BC9D8B /* 30.png */,
+				B95F6C0F25F6B29800BC9D8B /* 31.png */,
+				B95F6C1425F6B29800BC9D8B /* 33.png */,
+				B95F6C1A25F6B29800BC9D8B /* 38.png */,
+				B95F6C1125F6B29800BC9D8B /* 44.png */,
+				B95F6C1225F6B29800BC9D8B /* 77.png */,
+				B95F6C1625F6B29800BC9D8B /* pirlo.png */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95F6BC725F6A28A00BC9D8B /* Juventus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95F6BF225F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "Juventus" */;
+			buildPhases = (
+				B95F6BC425F6A28A00BC9D8B /* Sources */,
+				B95F6BC525F6A28A00BC9D8B /* Frameworks */,
+				B95F6BC625F6A28A00BC9D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Juventus;
+			productName = Juventus;
+			productReference = B95F6BC825F6A28A00BC9D8B /* Juventus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B95F6BDD25F6A28B00BC9D8B /* JuventusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95F6BF525F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "JuventusTests" */;
+			buildPhases = (
+				B95F6BDA25F6A28B00BC9D8B /* Sources */,
+				B95F6BDB25F6A28B00BC9D8B /* Frameworks */,
+				B95F6BDC25F6A28B00BC9D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95F6BE025F6A28B00BC9D8B /* PBXTargetDependency */,
+			);
+			name = JuventusTests;
+			productName = JuventusTests;
+			productReference = B95F6BDE25F6A28B00BC9D8B /* JuventusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B95F6BE825F6A28B00BC9D8B /* JuventusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B95F6BF825F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "JuventusUITests" */;
+			buildPhases = (
+				B95F6BE525F6A28B00BC9D8B /* Sources */,
+				B95F6BE625F6A28B00BC9D8B /* Frameworks */,
+				B95F6BE725F6A28B00BC9D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B95F6BEB25F6A28B00BC9D8B /* PBXTargetDependency */,
+			);
+			name = JuventusUITests;
+			productName = JuventusUITests;
+			productReference = B95F6BE925F6A28B00BC9D8B /* JuventusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95F6BC025F6A28A00BC9D8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B95F6BC725F6A28A00BC9D8B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B95F6BDD25F6A28B00BC9D8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B95F6BC725F6A28A00BC9D8B;
+					};
+					B95F6BE825F6A28B00BC9D8B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B95F6BC725F6A28A00BC9D8B;
+					};
+				};
+			};
+			buildConfigurationList = B95F6BC325F6A28A00BC9D8B /* Build configuration list for PBXProject "Juventus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B95F6BBF25F6A28A00BC9D8B;
+			productRefGroup = B95F6BC925F6A28A00BC9D8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95F6BC725F6A28A00BC9D8B /* Juventus */,
+				B95F6BDD25F6A28B00BC9D8B /* JuventusTests */,
+				B95F6BE825F6A28B00BC9D8B /* JuventusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95F6BC625F6A28A00BC9D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95F6C2225F6B29800BC9D8B /* 8.png in Resources */,
+				B95F6C2025F6B29800BC9D8B /* 12.png in Resources */,
+				B95F6C1B25F6B29800BC9D8B /* 14.png in Resources */,
+				B95F6C2925F6B29800BC9D8B /* 77.png in Resources */,
+				B94EB5CC25FF77BA00A64288 /* logo_black.png in Resources */,
+				B95F6C2B25F6B29800BC9D8B /* 33.png in Resources */,
+				B95F6C2F25F6B29800BC9D8B /* 25.png in Resources */,
+				B95F6C2425F6B29800BC9D8B /* 7.png in Resources */,
+				B95F6C2D25F6B29800BC9D8B /* pirlo.png in Resources */,
+				B95F6BD825F6A28A00BC9D8B /* LaunchScreen.storyboard in Resources */,
+				B95F6C2C25F6B29800BC9D8B /* 22.png in Resources */,
+				B95F6C2E25F6B29800BC9D8B /* 1.png in Resources */,
+				B95F6C2725F6B29800BC9D8B /* 16.png in Resources */,
+				B95F6C2325F6B29800BC9D8B /* 9.png in Resources */,
+				B95F6C3025F6B29800BC9D8B /* 19.png in Resources */,
+				B95F6C1C25F6B29800BC9D8B /* 10.png in Resources */,
+				B95F6BD525F6A28A00BC9D8B /* Assets.xcassets in Resources */,
+				B9E3778C25FE9D6700E9CEDE /* 1.txt in Resources */,
+				B95F6C2125F6B29800BC9D8B /* 13.png in Resources */,
+				B95F6C1E25F6B29800BC9D8B /* 4.png in Resources */,
+				B95F6C2525F6B29800BC9D8B /* 30.png in Resources */,
+				B95F6C1D25F6B29800BC9D8B /* 28.png in Resources */,
+				B95F6C2825F6B29800BC9D8B /* 44.png in Resources */,
+				B95F6C2A25F6B29800BC9D8B /* 3.png in Resources */,
+				B95F6C1F25F6B29800BC9D8B /* 5.png in Resources */,
+				B95F6C3125F6B29800BC9D8B /* 38.png in Resources */,
+				B95F6C2625F6B29800BC9D8B /* 31.png in Resources */,
+				B95F6BFF25F6B1A700BC9D8B /* players.xml in Resources */,
+				B95F6BD325F6A28A00BC9D8B /* Main.storyboard in Resources */,
+				B9E3779225FEAC8300E9CEDE /* Juventus-Kits-Logo-PNG-DLS-300x300.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BDC25F6A28B00BC9D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BE725F6A28B00BC9D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95F6BC425F6A28A00BC9D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CDEA9725F7999800CFBC5C /* WebViewController.swift in Sources */,
+				B95F6C5525F6C29200BC9D8B /* PlayerViewController.swift in Sources */,
+				B95F6C5025F6BFE200BC9D8B /* TableViewController.swift in Sources */,
+				B95F6BCC25F6A28A00BC9D8B /* AppDelegate.swift in Sources */,
+				B95F6BCE25F6A28A00BC9D8B /* SceneDelegate.swift in Sources */,
+				B9EB98142634BAE000AD8F22 /* MarkedTableViewController.swift in Sources */,
+				B95F6C4325F6B9EF00BC9D8B /* Team.swift in Sources */,
+				B9CDEA9F25F7BBA700CFBC5C /* ProfileViewController.swift in Sources */,
+				B97A6F47263579A700848A3E /* FilterTableViewController.swift in Sources */,
+				B95F6C4B25F6BE6B00BC9D8B /* Player.swift in Sources */,
+				B9955DBD262A22E2000B67BC /* players.xcdatamodeld in Sources */,
+				B916B8FE261CAB4B00E19BE2 /* addPlayerViewController.swift in Sources */,
+				B95F6C3E25F6B91400BC9D8B /* XMLPlayerParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BDA25F6A28B00BC9D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95F6BE325F6A28B00BC9D8B /* JuventusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95F6BE525F6A28B00BC9D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95F6BEE25F6A28B00BC9D8B /* JuventusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B95F6BE025F6A28B00BC9D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95F6BC725F6A28A00BC9D8B /* Juventus */;
+			targetProxy = B95F6BDF25F6A28B00BC9D8B /* PBXContainerItemProxy */;
+		};
+		B95F6BEB25F6A28B00BC9D8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B95F6BC725F6A28A00BC9D8B /* Juventus */;
+			targetProxy = B95F6BEA25F6A28B00BC9D8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B95F6BD125F6A28A00BC9D8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95F6BD225F6A28A00BC9D8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B95F6BD625F6A28A00BC9D8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95F6BD725F6A28A00BC9D8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B95F6BF025F6A28B00BC9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B95F6BF125F6A28B00BC9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B95F6BF325F6A28B00BC9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = Juventus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.Juventus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B95F6BF425F6A28B00BC9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = Juventus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.Juventus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B95F6BF625F6A28B00BC9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = JuventusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.JuventusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juventus.app/Juventus";
+			};
+			name = Debug;
+		};
+		B95F6BF725F6A28B00BC9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = JuventusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.JuventusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juventus.app/Juventus";
+			};
+			name = Release;
+		};
+		B95F6BF925F6A28B00BC9D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = JuventusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.JuventusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Juventus;
+			};
+			name = Debug;
+		};
+		B95F6BFA25F6A28B00BC9D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y7AZL44LRK;
+				INFOPLIST_FILE = JuventusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UCC.JuventusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Juventus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95F6BC325F6A28A00BC9D8B /* Build configuration list for PBXProject "Juventus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95F6BF025F6A28B00BC9D8B /* Debug */,
+				B95F6BF125F6A28B00BC9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95F6BF225F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "Juventus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95F6BF325F6A28B00BC9D8B /* Debug */,
+				B95F6BF425F6A28B00BC9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95F6BF525F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "JuventusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95F6BF625F6A28B00BC9D8B /* Debug */,
+				B95F6BF725F6A28B00BC9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B95F6BF825F6A28B00BC9D8B /* Build configuration list for PBXNativeTarget "JuventusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95F6BF925F6A28B00BC9D8B /* Debug */,
+				B95F6BFA25F6A28B00BC9D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9955DBB262A22E2000B67BC /* players.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9955DBC262A22E2000B67BC /* players.xcdatamodel */,
+			);
+			currentVersion = B9955DBC262A22E2000B67BC /* players.xcdatamodel */;
+			path = players.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B95F6BC025F6A28A00BC9D8B /* Project object */;
+}
